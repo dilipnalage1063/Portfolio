@@ -4,8 +4,6 @@ const Navbar = () => {
     return (
         <nav className="glass-card" style={{
             position: 'fixed',
-            top: '0',
-            left: '0',
             top: '1rem',
             left: '50%',
             transform: 'translateX(-50%)',
