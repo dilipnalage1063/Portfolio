@@ -64,4 +64,3 @@ To run this project locally:
 - **Email:** dilipnalage106@gmail.com
 
 ---
-Managed by [Antigravity AI](https://github.com/google-deepmind/antigravity) 🚀
