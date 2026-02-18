@@ -1,16 +1,67 @@
-# React + Vite
+# 🚀 Dilip Nalage | Full-Stack Software Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official repository of my personal portfolio. This project showcases my journey, skills, and the impact-driven projects I've built as a software developer.
 
-Currently, two official plugins are available:
+🔗 **Live Portfolio:** [dilip-nalage.vercel.app](https://dilip-nalage.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio is built with modern web technologies focused on performance, responsiveness, and clean aesthetics:
 
-## Expanding the ESLint configuration
+- **Frontend:** [React.js](https://reactjs.org/) (Functional Components, Hooks)
+- **Styling:** [Vanilla CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) (Glassmorphism, CSS Grid, Flexbox)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Deployment:** [Vercel](https://vercel.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- **Glassmorphic Design:** A modern, sleek UI with translucent background effects.
+- **Dynamic Projects Section:** Interactive project cards with live demo and repository links.
+- **Responsive Layout:** Fully optimized for mobile, tablet, and desktop views.
+- **ATS-Friendly Content:** Project descriptions focused on impact and metrics.
+- **Contact Form:** Integrated for professional reach-outs via FormSubmit.
+
+---
+
+## 📂 Featured Projects
+
+| Project | Description | Live Link |
+| :--- | :--- | :--- |
+| **SAPT** | Student Assessment & Performance Tracker | [Link](https://student-assessment-and-performance.vercel.app/) |
+| **AI SkillBridge** | AI-Powered study plan & Resume Analysis | [Link](https://ai-skill-bridge-production.up.railway.app/) |
+| **MicroStore** | 60s Digital Store Generator | [Link](https://micro-store-generator.vercel.app/) |
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/dilipnalage1063/Portfolio.git
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 📬 Connect with Me
+
+- **LinkedIn:** [Dilip Nalage](https://www.linkedin.com/in/dilip-nalage-73889828a)
+- **GitHub:** [@dilipnalage1063](https://github.com/dilipnalage1063)
+- **LeetCode:** [dilip_nalage1063](https://leetcode.com/u/dilip_nalage1063/)
+- **Email:** dilipnalage106@gmail.com
+
+---
+Managed by [Antigravity AI](https://github.com/google-deepmind/antigravity) 🚀
