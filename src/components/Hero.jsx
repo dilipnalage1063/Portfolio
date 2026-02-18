@@ -39,7 +39,7 @@ const Hero = () => {
                 marginBottom: '2rem',
                 animationDelay: '0.3s'
             }}>
-                Aspiring <span style={{ color: 'var(--text-main)', fontWeight: '600' }}>Software Developer</span> bridging the gap between Electronics Engineering and Advanced Computing.
+                PG-DAC graduate specializing in <span style={{ color: 'var(--text-main)', fontWeight: '600' }}>Java Backend and Full-Stack Development</span> bridging the gap between Electronics Engineering and Advanced Computing.
             </p>
             <div className="fade-in" style={{ display: 'flex', gap: '1.5rem', animationDelay: '0.5s' }}>
                 <a href="#projects" className="primary-btn" style={{ padding: '0.75rem 2rem', borderRadius: '50px' }}>View My Work</a>

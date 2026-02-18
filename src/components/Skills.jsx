@@ -9,11 +9,11 @@ import React from 'react'
  */
 const Skills = () => {
     const skillsData = [
-        { category: 'Languages', skills: ['Java', 'C++', 'Python', 'C#', 'JavaScript', 'SQL'] },
-        { category: 'Backend', skills: ['Spring Boot', '.NET Web API', 'RESTful APIs', 'NodeJS', 'Multithreading'] },
-        { category: 'Frontend/Design', skills: ['ReactJS', 'HTML5', 'CSS3', 'WordPress'] },
-        { category: 'Hardware/IoT', skills: ['IoT', 'Embedded Systems', 'ESP32', 'Arduino IDE'] },
-        { category: 'Core Skills', skills: ['Data Structures', 'Git/GitHub', 'AWS Cloud (Basic)', 'Problem Solving', 'Communication'] }
+        { category: 'Languages', skills: ['Java', 'C++', 'JavaScript', 'SQL'] },
+        { category: 'Backend', skills: ['Spring Boot', 'Spring MVC', 'Hibernate', 'JPA', 'RESTful APIs', 'Spring Security', 'JWT', 'RBAC'] },
+        { category: 'Frontend', skills: ['HTML5', 'CSS3', 'Bootstrap', 'React.js', 'Tailwind CSS'] },
+        { category: 'Tools & DB', skills: ['MySQL', 'Git', 'GitHub', 'Postman', 'Maven', 'Docker', 'Railway', 'Vercel'] },
+        { category: 'Core CS', skills: ['DSA', 'OOP', 'OS', 'DBMS'] }
     ]
 
     return (

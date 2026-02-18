@@ -29,6 +29,16 @@ const Contact = () => {
                         <a href="https://github.com/dilipnalage1063" target="_blank" className="gradient-text" style={{ fontWeight: 'bold' }}>GitHub</a>
                         <a href="https://leetcode.com/u/dilip_nalage1063/" target="_blank" className="gradient-text" style={{ fontWeight: 'bold' }}>LeetCode</a>
                     </div>
+
+                    <div style={{ marginTop: '2rem' }}>
+                        <h3 style={{ color: 'var(--accent-primary)', marginBottom: '1rem' }}>Certifications</h3>
+                        <p style={{ fontSize: '0.9rem', marginBottom: '0.5rem' }}>
+                            🏆 <strong>AWS Cloud Practitioner</strong> (Oct 2025)
+                        </p>
+                        <p style={{ fontSize: '0.9rem' }}>
+                            🏆 <strong>Generative AI by Google</strong> (Sept 2024)
+                        </p>
+                    </div>
                 </div>
                 <form
                     action="https://formsubmit.co/dilipnalage106@gmail.com"

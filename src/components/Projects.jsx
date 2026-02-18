@@ -11,23 +11,23 @@ import React from 'react'
 const Projects = () => {
     const projects = [
         {
-            title: 'Student Assessment & Performance Tracker',
-            platform: 'React, Spring Boot, .NET Core, MySQL',
-            description: 'Developed a web-based tracking system to manage exams and grades for 50+ students. Features automated messaging (Twilio/Resend) and optimized backend for bulk notifications.',
+            title: 'Student Assessment and Performance Tracker',
+            platform: 'Java Spring Boot, React.js, MySQL, Twilio API, Resend API',
+            description: 'Built full-stack system managing 10+ students with centralized grade tracking. Integrated SMS & Email APIs; reduced bulk notification time by 40% (from ~10s to ~6s). Improved response efficiency and achieved < 2s load time.',
             repo: 'https://github.com/dilipnalage1063/Student-Assessment-And-Performance-Tracker',
             live: 'https://student-assessment-and-performance.vercel.app/'
         },
         {
             title: 'AI SkillBridge',
-            platform: 'Java, Spring Boot, MySQL, Gemini AI, Apache Tika',
-            description: 'Full-stack application for automated study plan generation and AI-powered resume analysis. Implemented local backup logic ensuring availability even when offline.',
+            platform: 'HTML, CSS, JavaScript, Spring Boot, MySQL, Gemini AI, Apache Tika, Docker, Railway',
+            description: 'Developed platform with 15+ REST APIs for skill analysis and study planning. Implemented PDF resume parsing using AI; improved availability by 30% via fallback logic. Tested with 10+ users, increasing engagement by 25%.',
             repo: 'https://github.com/dilipnalage1063/AI-SkillBridge',
             live: 'https://ai-skill-bridge-production.up.railway.app/'
         },
         {
             title: 'MicroStore Generator',
-            platform: 'React, Tailwind CSS, Firebase, Firestore',
-            description: 'Store creation platform allowing users to set up digital shops in under 60s. Integrated direct WhatsApp/UPI checkouts and optimized Firestore performance.',
+            platform: 'React.js, Tailwind CSS, Firebase (Serverless), Firestore, Vite, Vercel',
+            description: 'Enabled live store creation in <60 seconds with dynamic checkout links. Optimized queries to achieve 1.2s response time; launched 5+ stores.',
             repo: 'https://github.com/dilipnalage1063/MicroStore-Generator',
             live: 'https://micro-store-generator.vercel.app/'
         },

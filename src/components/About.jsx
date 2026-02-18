@@ -20,14 +20,19 @@ const About = () => {
                 </p>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem', marginTop: '3rem' }}>
                     <div>
-                        <h3 style={{ color: 'var(--accent-primary)' }}>Currently Pursuing</h3>
-                        <p>PG-DAC, Aug 2025 Batch</p>
-                        <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>C-DAC</p>
+                        <h3 style={{ color: 'var(--accent-primary)' }}>Education</h3>
+                        <p style={{ fontWeight: 'bold' }}>PG-DAC</p>
+                        <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>C-DAC Pune (70.31%)</p>
                     </div>
                     <div>
-                        <h3 style={{ color: 'var(--accent-primary)' }}>Background</h3>
-                        <p>BE in Electronics & TC</p>
-                        <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Modern College of Engineering, Pune</p>
+                        <h3 style={{ color: 'var(--accent-primary)' }}>Engineering</h3>
+                        <p style={{ fontWeight: 'bold' }}>BE in Electronics & TC</p>
+                        <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Modern College of Engineering, Pune (7.56 CGPA)</p>
+                    </div>
+                    <div>
+                        <h3 style={{ color: 'var(--accent-primary)' }}>Higher Secondary</h3>
+                        <p style={{ fontWeight: 'bold' }}>HSC - 91.60%</p>
+                        <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>JNV Solapur</p>
                     </div>
                     <div>
                         <h3 style={{ color: 'var(--accent-primary)' }}>Location</h3>
