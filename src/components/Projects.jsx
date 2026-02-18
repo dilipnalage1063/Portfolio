@@ -11,10 +11,25 @@ import React from 'react'
 const Projects = () => {
     const projects = [
         {
-            title: 'Student Assessment and Performance Tracker',
-            platform: 'Java Spring Boot, .NET Web API, ReactJS',
-            description: 'A comprehensive web application for managing student assessments, grade calculations, and automated notifications.',
-            repo: 'https://github.com/dilipnalage1063/Student-Assessment-And-Performance-Tracker'
+            title: 'Student Assessment & Performance Tracker',
+            platform: 'React, Spring Boot, .NET Core, MySQL',
+            description: 'Developed a web-based tracking system to manage exams and grades for 50+ students. Features automated messaging (Twilio/Resend) and optimized backend for bulk notifications.',
+            repo: 'https://github.com/dilipnalage1063/Student-Assessment-And-Performance-Tracker',
+            live: 'https://student-assessment-and-performance.vercel.app/'
+        },
+        {
+            title: 'AI SkillBridge',
+            platform: 'Java, Spring Boot, MySQL, Gemini AI, Apache Tika',
+            description: 'Full-stack application for automated study plan generation and AI-powered resume analysis. Implemented local backup logic ensuring availability even when offline.',
+            repo: 'https://github.com/dilipnalage1063/AI-SkillBridge',
+            live: 'https://ai-skill-bridge-production.up.railway.app/'
+        },
+        {
+            title: 'MicroStore Generator',
+            platform: 'React, Tailwind CSS, Firebase, Firestore',
+            description: 'Store creation platform allowing users to set up digital shops in under 60s. Integrated direct WhatsApp/UPI checkouts and optimized Firestore performance.',
+            repo: 'https://github.com/dilipnalage1063/MicroStore-Generator',
+            live: 'https://micro-store-generator.vercel.app/'
         },
         {
             title: 'Secure Image Encryption and Transmission',
@@ -26,12 +41,6 @@ const Projects = () => {
             title: 'Fire Fighting Robot Using ESP32',
             platform: 'IoT, ESP32, C++, IR Sensors',
             description: 'Designed and implemented a fire-fighting robot with efficient fire detection and extinguishing capabilities using a remote-control system.',
-            repo: '#'
-        },
-        {
-            title: 'Internship Portfolio',
-            platform: 'Web Technologies',
-            description: 'Built during internship at Oasis Infobyte, featuring landing pages and a temperature converter.',
             repo: '#'
         }
     ]
@@ -45,16 +54,28 @@ const Projects = () => {
                         <h3 style={{ color: 'var(--accent-primary)' }}>{proj.title}</h3>
                         <p style={{ fontSize: '0.9rem', color: 'var(--accent-secondary)', marginBottom: '1rem' }}>{proj.platform}</p>
                         <p style={{ color: 'var(--text-secondary)', flexGrow: 1 }}>{proj.description}</p>
-                        <a href={proj.repo} target="_blank" rel="noopener noreferrer" style={{
-                            marginTop: '1.5rem',
-                            color: 'var(--accent-primary)',
-                            fontWeight: 'bold',
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '0.5rem'
-                        }}>
-                            View Repository →
-                        </a>
+                        <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem', flexWrap: 'wrap' }}>
+                            {proj.live && (
+                                <a href={proj.live} target="_blank" rel="noopener noreferrer" style={{
+                                    color: 'var(--accent-primary)',
+                                    fontWeight: 'bold',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '0.5rem'
+                                }}>
+                                    Live Demo 🚀
+                                </a>
+                            )}
+                            <a href={proj.repo} target="_blank" rel="noopener noreferrer" style={{
+                                color: 'var(--text-secondary)',
+                                fontWeight: 'bold',
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '0.5rem'
+                            }}>
+                                Repo Code 🔗
+                            </a>
+                        </div>
                     </div>
                 ))}
             </div>
