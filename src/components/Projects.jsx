@@ -35,13 +35,13 @@ const Projects = () => {
             title: 'Secure Image Encryption and Transmission',
             platform: 'IoT, ESP32-CAM, C++, ReactJS',
             description: 'An IoT-based surveillance system with AES-128 encryption for end-to-end secure image transmission.',
-            repo: 'https://github.com/dilipnalage1063/SITE-Project'
+            repo: 'https://github.com/dilipnalage1063/SITE-Project',
+            live: 'https://site-client-xi.vercel.app/'
         },
         {
             title: 'Fire Fighting Robot Using ESP32',
             platform: 'IoT, ESP32, C++, IR Sensors',
-            description: 'Designed and implemented a fire-fighting robot with efficient fire detection and extinguishing capabilities using a remote-control system.',
-            repo: '#'
+            description: 'Designed and implemented a fire-fighting robot with efficient fire detection and extinguishing capabilities using a remote-control system.'
         }
     ]
 

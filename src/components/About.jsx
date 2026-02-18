@@ -16,7 +16,7 @@ const About = () => {
                     My engineering background in Electronics and Telecommunication has always driven me to understand how complex systems operate. I am now applying that analytical discipline to software engineering, specifically focusing on building high-performance backend architectures and responsive user interfaces.
                 </p>
                 <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)' }}>
-                    I am currently pursuing a Post Graduate Diploma in Advanced Computing (PG-DAC, August 2025 Batch) under C-DAC Pune to bridge the gap between my technical hardware knowledge and modern software development.
+                    I have completed a Post Graduate Diploma in Advanced Computing (PG-DAC) under C-DAC Pune to bridge the gap between my technical hardware knowledge and modern software development.
                 </p>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem', marginTop: '3rem' }}>
                     <div>
