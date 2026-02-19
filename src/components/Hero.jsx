@@ -1,4 +1,4 @@
-import profileImg from '../assets/profile image.png'
+import profileImg from '../assets/3profile image.png'
 
 /**
  * Hero Section: The Entry Point
