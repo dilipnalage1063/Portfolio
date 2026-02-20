@@ -18,7 +18,7 @@ const Skills = () => {
 
     return (
         <section id="skills" className="container">
-            <h2 className="gradient-text" style={{ fontSize: '2.5rem', textAlign: 'center' }}>My Expertise</h2>
+            <h2 className="gradient-text" style={{ fontSize: '2.5rem', textAlign: 'center' }}>Technical Skills</h2>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', marginTop: '3rem' }}>
                 {skillsData.map((item, idx) => (
                     <div key={idx} className="glass-card" style={{ padding: '2rem' }}>
