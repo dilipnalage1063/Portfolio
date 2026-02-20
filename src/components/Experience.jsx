@@ -9,7 +9,7 @@ import React from 'react'
 const Experience = () => {
     return (
         <section id="experience" className="container">
-            <h2 className="gradient-text" style={{ fontSize: '2.5rem', textAlign: 'center' }}>Professional Journey</h2>
+            <h2 className="gradient-text" style={{ fontSize: '2.5rem', textAlign: 'center' }}>Internship Experience</h2>
             <div className="glass-card" style={{ padding: '2.5rem', marginTop: '3rem' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
                     <h3>Web Development Intern</h3>

@@ -1,6 +1,6 @@
 # 🚀 Dilip Nalage | Full-Stack Software Developer Portfolio
 
-Welcome to the official repository of my personal portfolio. This project showcases my journey, skills, and the impact-driven projects I've built as a software developer.
+Welcome to the official repository of my personal portfolio. This project showcases my skills, internship experience, and the impact-driven projects I've built as a software developer.
 
 🔗 **Live Portfolio:** [dilip-nalage.vercel.app](https://dilip-nalage.vercel.app/)
 
